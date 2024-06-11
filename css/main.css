@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/******** INDEX ********/
+
+.hero {
+    height: 100vh;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero_content {
+    width: 60%;
+    padding: 10px;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.39);
+    backdrop-filter: blur;
+}
+.hero_content a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    font-size: 5rem;
+}
+.h1_vivero {
+    color: #CAD2C5;
+}
+
+.hero_text {
+    color: white;
+}
+
+/******** NAV *******/
+.img_logo {
+    width: 80px;
+}
+
+
+/******* SUCURSALES ********/
