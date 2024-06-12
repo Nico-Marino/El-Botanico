@@ -131,14 +131,11 @@
 }
 .container_principal > div {
     font-size: 3rem;
+
+@media screen and (max-width:480px) {
+
+    
 }
-.inner_right img {
-
-}
-
-
-@media screen and (max-width: 480px) 
-{
     .container_principal {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
