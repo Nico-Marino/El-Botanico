@@ -28,7 +28,7 @@
     text-decoration: none;
     color: white;
 }
-h1 {
+.h1_vivero {
     font-size: 5rem;
 }
 .h1_vivero {
@@ -40,7 +40,10 @@ h1 {
 }
 
 /******* PRINCIPAL *****/
-.container {
+.container_principal {
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 100vh;
     display: grid;
@@ -52,30 +55,27 @@ h1 {
     padding: 15px;
     gap: 10px;
 }
-.container > div {
+.container_principal > div {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    font-size: 4rem;
+ 
 }
-.container a {
+.container_principal a {
     text-decoration: none;
-    color: #CAD2C5;
+    color: #2F3E46;
 }
 .sucursales {
-    background-color: #84A98C;
     grid-area: sucursales;
 }
 .productos {
-    background-color: #52796F;
     grid-area: productos;
 }
 .servicios {
-    background-color: #354F52;
     grid-area: servicios;
 }
 .contacto {
-    background-color: #2F3E46;
     grid-area: contacto;
 }
 /******** NAV *******/
@@ -83,5 +83,63 @@ h1 {
     width: 80px;
 }
 
+/****** CONTACTO *****/
+.events {
+    background-color: #2F3E46;
+    padding: 6rem;
+    padding-top: 4rem;
+ 
+}
+.inner {
+    background-color: white;
+    display: flex;
+    padding: 2rem;
+    box-shadow: 15px 15px 30px #84A98C;
+}
+.inner_left {
+    padding-block: 2rem;
+    padding-right: 3rem;
+} 
+.inner_right img {
+    max-width: 100%;
+
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
 
 /******* SUCURSALES ********/
+
+
+
+
+/****** MEDIA QUERRIES ******/
+
+@media screen and (max-width: 480px) 
+{
+    .container_principal {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "sucursales"
+        "productos"
+        "servicios"
+        "contacto";
+    }
+    .container_principal > div {
+        font-size: 3rem;
+    }
+    .hero_text {
+        font-size: 20px;
+    }
+    .h1_vivero {
+        font-size: 40px;
+    }
+    .container {
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+}
