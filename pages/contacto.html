@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,34 +11,63 @@
 </head>
 <body>
 
+    <nav class="navbar navbar-expand-md bg-body-light pt-0 pb-5">
+        <div class="container-fluid" style="background-color: #2d4735;">
+          <a class="navbar-brand" href="../pages/principal.html"><img class="img_logo"  src="../img/Logo vi.png" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="./sucursales.html" style="color: #CAD2C5;">Sucursales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="./productos.html" style="color: #CAD2C5;">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="./servicios.html" style="color: #CAD2C5;">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4" href="./contacto.html" style="color: #CAD2C5;">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
+<section class="d-flex justify-content-center">
+    <div class="card col-sm-6 p-4" style="background-color: #cad2c548;">
+        <div class="mb-3">
+            <h4 class="text-center fs-1 mt-3" style="color: #2d4735;">CONTACTANOS</h4>
+        </div>
+        <div class="mb-2">
+            <form>
+                <div class="mb-2">
+                    <label for="Nombre">NOMBRE</label>
+                    <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Escriba su nombre" style="color: #2d4735;">
+                </div>
+                <div class="mb-2">
+                    <label for="email">CORREO</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="email@ejemplo.com">
+                </div>
+                <div class="mb-2">
+                    <label for="number">TELEFONO</label>
+                    <input type="text" class="form-control" name="number" id="number" placeholder="123456789">
+                </div>
+                <div class="mb-2">
+                    <label for="Mensaje">MENSAJE</label>
+                    <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Escriba su consulta"></textarea>
+                </div>
+                <div>
+                    <button class="boton_form btn btn-sm" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
 
-
-
-
-    <section class="events">
-        <div class="inner">
-            <div class="inner_left">
-                <h3 class="text-center fs-1 fw-bold mb-4">CONTACTANOS</h3>
-                <form class="reservation">
-                    <input class="name mb-5 border-0 text-center fs-4" type="text" placeholder="Nombre" name="name" style="color:  #84A98C;">
-                    <input class="email mb-5 border-0 text-center fs-4" type="email" placeholder="Correo electronico" name="email" required style="color: #84A98C;">
-                    <input class="number mb-5 border-0 text-center fs-4" type="text" placeholder="Telefono" name="telefeno" required style="color: #84A98C;">
-                    <textarea class="text-center border-0 ps-3 fs-4" name="" id="" placeholder="Deje su mensaje" style="color: #84A98C;"></textarea>
-                    <div class="boton pt-4">
-                        <input class="border-0 fs-3" type="submit" value="Enviar" style="background-color: white; color: #84A98C;">
-                        <input class="border-0 fs-3" type="reset" value="Borrar" style="background-color: white; color: #84A98C;">
-                    </div>
-                 </form>
-
-            </div>
-            <div class="inner_right">
-               <a href="../pages/principal.html"><img src="../img/fotocontct.jpg" alt="foto planta"></a> 
-            </div>
-            </div>
-    </section>
-
-
+     
 
 
 

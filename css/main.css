@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 /******** INDEX ********/
@@ -85,37 +88,24 @@
 }
 
 /****** CONTACTO *****/
-.events {
-    background-color: #2F3E46;
-    padding: 6rem;
-    padding-top: 4rem;
- 
-}
-.inner {
-    background-color: white;
-    display: flex;
-    padding: 2rem;
-    box-shadow: 15px 15px 30px #84A98C;
-}
-.inner_left {
-    padding-block: 2rem;
-    padding-right: 3rem;
-} 
-.inner_right img {
-    max-width: 100%;
 
+.boton_form {
+    background-color: #2d4735;
+    color: white;
 }
-.boton {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-}
-
 
 /******* SUCURSALES ********/
 
 
 
+.col {
+    margin: 2rem;
+    margin-top: 1rem;
+}
+.row a {
+    text-decoration: none;
+    color: #2d4735;
+}
 
 /******* MEDIA QUERIES *******/
  
