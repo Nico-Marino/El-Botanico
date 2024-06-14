@@ -6,7 +6,15 @@
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
+.nav-link a {
+    background-color: blue;
+}
 
+.nav-item.active a,
+.nav-item a:hover {
+    text-decoration: underline;
+    color: white;
+}
 /******** INDEX ********/
 
 .hero {
@@ -45,7 +53,7 @@
 
 /******* PRINCIPAL *****/
 .container_principal {
-    background-image: url(../img/principal.jpg);
+    background-image: url(../img/Principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -96,15 +104,19 @@
 
 /******* SUCURSALES ********/
 
+.container > div {
+    color: #2d4735
 
-
-.col {
-    margin: 2rem;
-    margin-top: 1rem;
 }
-.row a {
-    text-decoration: none;
-    color: #2d4735;
+
+.card h3 {
+    color: white;
+}
+.card p {
+    color: white;
+}
+.oscurecer {
+    filter: brightness(50%);
 }
 
 /******* MEDIA QUERIES *******/
@@ -159,3 +171,4 @@
  
 
 }
+
