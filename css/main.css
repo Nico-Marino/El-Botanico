@@ -106,9 +106,7 @@
 
 .container > div {
     color: #2d4735
-
 }
-
 .card h3 {
     color: white;
 }
@@ -118,6 +116,19 @@
 .oscurecer {
     filter: brightness(50%);
 }
+
+/******** FOOTER *********/
+.pie > div {
+color: #CAD2C5;
+}
+.pie a {
+    color: #CAD2C5;
+}
+ /******* PRODUCTOS ***********/
+ .container_retiro a {
+    text-decoration: none;
+    color: #CAD2C5;
+ }
 
 /******* MEDIA QUERIES *******/
  
