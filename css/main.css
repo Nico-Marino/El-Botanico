@@ -119,10 +119,11 @@
 
 /******** FOOTER *********/
 .pie > div {
-color: #CAD2C5;
+color: #2d4735;
 }
 .pie a {
-    color: #CAD2C5;
+    text-decoration: none;
+    color: #2d4735;
 }
  /******* PRODUCTOS ***********/
  .container_retiro a {
@@ -155,7 +156,9 @@ color: #CAD2C5;
 .hero_content {
     padding: 5px;
 }
-
+.card h3 {
+    font-size: 10p;
+}
 }
 
 @media screen and (max-width: 480px) {
