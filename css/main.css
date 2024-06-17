@@ -100,6 +100,9 @@
     color: white;
 }
 /******* SUCURSALES ********/
+.container a {
+    text-decoration: none;
+}
 .container > div {
     color: #2d4735
 }
@@ -125,19 +128,60 @@ color: #2d4735;
     text-decoration: none;
     color: #CAD2C5;
  }
+ .header_productos {
+    font-family: "Montserrat", sans-serif;
+ }
+ .img_productos {
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+ }
+ .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 20px;
+ }
+ .contenedor > div {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    border-radius: 20px;
+ }
+ .contenedor > div:hover {
+    background-color: #31572C;
+    color: #CAD2C5;
+ }
+.informacion {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.informacion button {
+    background-color: #2d4735;
+    color: white;
+    padding: .4rem;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: white;
+}
 /******* MEDIA QUERIES *******/
 @media screen and (max-width: 768px) {
     .container_principal {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(4, 1fr);
         grid-template-areas: 
-        "sucursales  ..."
-        "productos   ..."
-        "servicios   ..."
-        "contacto    ...";
+        "sucursales  productos"
+        "sucursales  productos"
+        "servicios   contacto"
+        "servicios   contacto";
     }
     .container_principal > div {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
     .hero_text {
         font-size: 18px;
@@ -155,6 +199,11 @@ color: #2d4735;
 }
 @media screen and (max-width: 480px) {
     .container_principal {
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        justify-content: left;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
         grid-template-areas: 
