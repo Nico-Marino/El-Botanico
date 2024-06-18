@@ -53,7 +53,7 @@
 
 /******* PRINCIPAL *****/
 .container_principal {
-    background-image: url(../img/Principal.jpg);
+    background-image: url(../img/principal1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -76,7 +76,11 @@
 }
 .container_principal a {
     text-decoration: none;
-    color: #2F3E46;
+    color: white;
+}
+.container_principal a:hover {
+    color: #CAD2C5;
+    font-weight: bold;
 }
 .sucursales {
     grid-area: sucursales;
