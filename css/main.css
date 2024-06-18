@@ -143,6 +143,7 @@ color: #2d4735;
     flex-wrap: wrap;
     gap: 40px;
     margin-bottom: 20px;
+    margin-top: 2rem;
  }
  .contenedor > div {
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -150,8 +151,8 @@ color: #2d4735;
     border-radius: 20px;
  }
  .contenedor > div:hover {
-    background-color: #31572C;
-    color: #CAD2C5;
+    background-color: #CAD2C5;
+    color: white;
  }
 .informacion {
     height: 150px;
@@ -160,15 +161,20 @@ color: #2d4735;
     align-items: center;
     flex-direction: column;
 }
-
 .informacion button {
-    background-color: #2d4735;
+    background-color: #31572C;
     color: white;
     padding: .4rem;
     border-radius: 10px;
     margin-bottom: 15px;
     border: white;
 }
+.informacion button:hover {
+    background-color: white;
+    color: #2d4735;
+    font-weight: bold;
+}
+
 /******* MEDIA QUERIES *******/
 @media screen and (max-width: 768px) {
     .container_principal {
