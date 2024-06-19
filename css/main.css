@@ -177,6 +177,7 @@
     font-weight: bold;
 }
 
+
 /******* MEDIA QUERIES *******/
 @media screen and (max-width: 768px) {
     .container_principal {
@@ -229,5 +230,8 @@
 .h1_vivero {
     font-size: 40px;
 }
+}
+.nav-item {
+    margin-left: 1rem;
 }
 
