@@ -7,7 +7,7 @@
     font-family: "Montserrat", sans-serif;
 }
 .nav-link a {
-    background-color: blue;
+    background-color: red;
 }
 
 .nav-item.active a,
@@ -92,6 +92,7 @@
 .contacto {
     grid-area: contacto;
 }
+
 /******** NAV *******/
 .img_logo {
     width: 80px;
@@ -207,7 +208,7 @@
 }
 }
 @media screen and (max-width: 480px) {
-    .container_principal {
+.container_principal {
         padding-top: 4rem;
         display: flex;
         flex-direction: column;
@@ -234,4 +235,6 @@
 .nav-item {
     margin-left: 1rem;
 }
+
+
 
