@@ -6,9 +6,7 @@
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
-.nav-link a {
-    background-color: red;
-}
+
 
 .nav-item.active a,
 .nav-item a:hover {
