@@ -6,7 +6,10 @@
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
-
+::selection {
+    background-color: black;
+    color: white;
+}
 
 .nav-item.active a,
 .nav-item a:hover {
@@ -39,8 +42,6 @@
 }
 .h1_vivero {
     font-size: 6rem;
-}
-.h1_vivero {
     color: #CAD2C5;
 }
 

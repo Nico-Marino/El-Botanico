@@ -1,0 +1,32 @@
+.hero {
+    height: 100vh;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .hero_content {
+    width: 60%;
+    padding: 10px;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.39);
+    backdrop-filter: blur;
+
+    .h1 {
+        font-size: 6rem;
+        color: $secondarycolor;
+    }
+    .hero_text {
+        color: white;
+    }
+    }
+    .hero_content a {
+        text-decoration: none;
+        color: white;
+        font-size: 10rem;
+    }
+}
