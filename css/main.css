@@ -46,16 +46,13 @@
 .hero_content:hover {
     background-color: rgba(255, 0, 0, 0.063);
 }
-.span {
-    transition: all 3s;
+.h1_vivero {
+    transition: all 2s;
 }
-.span:hover {
-    color: rgb(215, 215, 17);
-}
-
-.span {
+.h1_vivero:hover {
     color: red;
 }
+
 .h1_vivero {
     font-size: 6rem;
     color: #CAD2C5;
