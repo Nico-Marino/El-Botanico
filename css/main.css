@@ -40,6 +40,22 @@
     color: white;
     font-size: 10rem;
 }
+.hero_content {
+    transition: all 3s;
+}
+.hero_content:hover {
+    background-color: rgba(255, 0, 0, 0.063);
+}
+.span {
+    transition: all 3s;
+}
+.span:hover {
+    color: rgb(215, 215, 17);
+}
+
+.span {
+    color: red;
+}
 .h1_vivero {
     font-size: 6rem;
     color: #CAD2C5;
@@ -71,9 +87,13 @@
     align-items: center;
     font-size: 4rem;
 }
+
 .container_principal a {
     text-decoration: none;
     color: white;
+}
+.container_principal a {
+    transition: all 1s;
 }
 .container_principal a:hover {
     color: #CAD2C5;
@@ -108,6 +128,13 @@
 .container > div {
     color: #2d4735
 }
+.card {
+    transition: all .1s; 
+}
+.card:hover {
+    transform: scale(1) translateY(-12px); 
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
 .card h3 {
     color: white;
 }
@@ -122,7 +149,6 @@
     height: 340px;
     object-fit: cover;
 }
-/******** FOOTER *********/
 
 
  /******* PRODUCTOS ***********/
@@ -139,6 +165,13 @@
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
  }
+ .contenedor > div {
+    transition: all .1s; 
+}
+.contenedor > div:hover {
+    transform: scale(1) translateY(-12px); 
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
  .contenedor {
     display: flex;
     justify-content: center;
@@ -156,6 +189,7 @@
     background-color: #CAD2C5;
     color: white;
  }
+
 .informacion {
     height: 150px;
     display: flex;
@@ -176,7 +210,6 @@
     color: #2d4735;
     font-weight: bold;
 }
-
 
 /******* MEDIA QUERIES *******/
 @media screen and (max-width: 768px) {
@@ -225,10 +258,10 @@
     font-size: 2.5rem;
 }
 .hero_text {
-    font-size: 20px;
+    font-size: 1rem;
 }
 .h1_vivero {
-    font-size: 40px;
+    font-size: 2rem;
 }
 }
 .nav-item {
