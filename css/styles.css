@@ -198,11 +198,14 @@
     font-size: 3rem;
   }
   .hero .hero_content .hero_text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
   }
   .hero .hero_content .hero_vivero {
     font-size: 3rem;
+  }
+  .card .h3_serv {
+    font-size: 1.8rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -227,7 +230,7 @@
     text-align: center;
   }
   .hero .hero_content .hero_vivero {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
 
