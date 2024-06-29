@@ -1,0 +1,60 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 20px;
+    margin-top: 2rem;
+
+    .img_productos {
+        width: 320px;
+        height: 340px;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+    }
+    > div {
+        transition: all .1s; 
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        background-color: white;
+        border-radius: 20px;
+
+        &:hover {
+            transform: scale(1) translateY(-12px); 
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            background-color: $secondarycolor;
+            color: white;
+          
+        }
+    }
+
+    .informacion {
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .informacion button {
+        background-color: $maincolor;
+        color: white;
+        padding: .4rem;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        border: white;
+
+        &:hover {
+            background-color: white;
+            color: $maincolor;
+            font-weight: bold;
+            transition: 1s;
+        }
+    }
+ }
+ .container_retiro a {
+    text-decoration: none;
+    color: $secondarycolor;
+ }
+ .row a {
+    text-decoration: none;
+ }
+ 

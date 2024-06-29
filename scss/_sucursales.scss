@@ -1,0 +1,19 @@
+.container {
+    .card {
+        transition: all .1s; 
+
+        &:hover {
+            transform: scale(1) translateY(-12px); 
+            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        } 
+        .oscurecer {
+            filter: brightness(50%);
+        }
+        h3, p {
+            color: white;
+        }
+    }
+   
+    
+   
+}

@@ -1,0 +1,11 @@
+.boton_form {
+    background-color: $maincolor;
+    color: white;
+
+    &:hover {
+        background-color: white;
+        font-weight: bold;
+        transition: 1s;
+       
+    }
+}

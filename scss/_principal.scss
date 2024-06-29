@@ -1,0 +1,45 @@
+.container_principal {
+    background-image: url(../img/principal1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+       "sucursales  productos"
+       "servicios   contacto";
+    padding: 15px;
+    gap: 10px;
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        transition: all 1s;
+
+        &:hover {
+            color: $secondarycolor;
+            font-weight: bold;
+        }
+    }
+    .sucursales {
+        grid-area: sucursales;
+    }
+    .productos {
+        grid-area: productos;
+    }
+    .servicios {
+        grid-area: servicios;
+    }
+    .contacto {
+        grid-area: contacto;
+    }
+    
+}

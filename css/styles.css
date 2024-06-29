@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+*::selection {
+  background-color: black;
+  color: white;
+}
+
+.img_logo {
+  width: 80px;
+}
+
+.nav-item.active a,
+.nav-item a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero .hero_content {
+  width: 60%;
+  padding: 10px;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.39);
+  backdrop-filter: blur;
+  transition: all 3s;
+}
+.hero .hero_content:hover {
+  background-color: rgba(255, 0, 0, 0.063);
+}
+.hero .hero_content a {
+  text-decoration: none;
+  color: white;
+}
+.hero .hero_content .hero_vivero {
+  font-size: 6rem;
+  color: #CAD2C5;
+  transition: all 6s;
+}
+.hero .hero_content .hero_vivero:hover {
+  color: red;
+}
+.hero .hero_content .hero_text {
+  color: white;
+}
+
+.container_principal {
+  background-image: url(../img/principal1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "sucursales  productos" "servicios   contacto";
+  padding: 15px;
+  gap: 10px;
+}
+.container_principal div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+.container_principal a {
+  text-decoration: none;
+  color: white;
+  transition: all 1s;
+}
+.container_principal a:hover {
+  color: #CAD2C5;
+  font-weight: bold;
+}
+.container_principal .sucursales {
+  grid-area: sucursales;
+}
+.container_principal .productos {
+  grid-area: productos;
+}
+.container_principal .servicios {
+  grid-area: servicios;
+}
+.container_principal .contacto {
+  grid-area: contacto;
+}
+
+.container .card {
+  transition: all 0.1s;
+}
+.container .card:hover {
+  transform: scale(1) translateY(-12px);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.container .card .oscurecer {
+  filter: brightness(50%);
+}
+.container .card h3, .container .card p {
+  color: white;
+}
+
+.boton_form {
+  background-color: #2d4735;
+  color: white;
+}
+.boton_form:hover {
+  background-color: white;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 20px;
+  margin-top: 2rem;
+}
+.contenedor .img_productos {
+  width: 320px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.contenedor > div {
+  transition: all 0.1s;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  border-radius: 20px;
+}
+.contenedor > div:hover {
+  transform: scale(1) translateY(-12px);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-color: #CAD2C5;
+  color: white;
+}
+.contenedor .informacion {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contenedor .informacion button {
+  background-color: #2d4735;
+  color: white;
+  padding: 0.4rem;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: white;
+}
+.contenedor .informacion button:hover {
+  background-color: white;
+  color: #2d4735;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.container_retiro a {
+  text-decoration: none;
+  color: #CAD2C5;
+}
+
+.row a {
+  text-decoration: none;
+}
+
+.card_form {
+  transition: all 0.1s;
+}
+.card_form:hover {
+  transform: scale(1) translateY(-12px);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .container_principal {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "sucursales  productos" "sucursales  productos" "servicios   contacto" "servicios   contacto";
+  }
+  .container_principal > div {
+    font-size: 3rem;
+  }
+  .hero .hero_content .hero_text {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .hero .hero_content .hero_vivero {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container_principal {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: left;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "sucursales" "productos" "servicios" "contacto";
+  }
+  .container_principal > div {
+    font-size: 2.8rem;
+  }
+  .nav-item {
+    margin-left: 1rem;
+  }
+  .hero .hero_content .hero_text {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .hero .hero_content .hero_vivero {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
