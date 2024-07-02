@@ -61,12 +61,7 @@
   width: 60%;
   padding: 10px;
   border-radius: 1rem;
-  background-color: rgba(0, 0, 0, 0.39);
-  backdrop-filter: blur;
   transition: all 3s;
-}
-.hero .hero_content:hover {
-  background-color: rgba(255, 0, 0, 0.063);
 }
 .hero .hero_content a {
   text-decoration: none;

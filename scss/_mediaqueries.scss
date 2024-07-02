@@ -7,12 +7,10 @@
         "sucursales  productos"
         "servicios   contacto"
         "servicios   contacto";
-
         > div {
             font-size: 3rem;
         }
     }
-
     .hero {
         .hero_content {
             .hero_text {
@@ -24,7 +22,6 @@
             }
         }
     }
-
     .card {
         .h3_serv {
             font-size: 1.8rem;
@@ -32,9 +29,7 @@
         .p_serv {
             font-size: 1.2rem;
         }
-    }
-   
-   
+    }  
 }
 @media screen and (max-width: 480px) {
 .container_principal {
