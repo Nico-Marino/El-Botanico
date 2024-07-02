@@ -18,6 +18,7 @@
         justify-content: center;
         align-items: center;
         font-size: 4rem;
+        animation:tracking-in-expand-fwd-top .8s cubic-bezier(.215,.61,.355,1.000) both;
     }
     a {
         text-decoration: none;
@@ -31,15 +32,21 @@
     }
     .sucursales {
         grid-area: sucursales;
+        animation-delay: .3s;
     }
     .productos {
         grid-area: productos;
+        animation-delay: .6s;
     }
     .servicios {
         grid-area: servicios;
+        animation-delay: .9s;
     }
     .contacto {
         grid-area: contacto;
+        animation-delay: 1.2s;
     }
     
 }
+
+ @keyframes tracking-in-expand-fwd-top{0%{letter-spacing:-.5em;transform:translateZ(-700px) translateY(-500px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0) translateY(0);opacity:1}}
