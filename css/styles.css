@@ -70,7 +70,7 @@
 .hero .hero_content .hero_vivero {
   font-size: 6rem;
   color: #CAD2C5;
-  transition: all 6s;
+  transition: all 5s;
   animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
   animation-delay: 0.3s;
 }
