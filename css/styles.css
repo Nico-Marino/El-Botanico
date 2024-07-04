@@ -181,18 +181,33 @@
     opacity: 1;
   }
 }
-.container .card {
+.h2_title {
+  color: rgb(203, 73, 73);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.p_sucu {
+  color: rgb(109, 107, 107);
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.sucursales_back {
+  padding: 1rem;
+  height: 500px;
+  background: rgb(252, 251, 251);
+  background: radial-gradient(circle, rgb(252, 251, 251) 1%, rgb(45, 71, 53) 100%);
   transition: all 0.1s;
 }
-.container .card:hover {
+.sucursales_back:hover {
   transform: scale(1) translateY(-12px);
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
-.container .card .oscurecer {
+.sucursales_back .oscurecer {
   filter: brightness(50%);
-}
-.container .card h3, .container .card p {
-  color: white;
 }
 
 .boton_form {
@@ -262,6 +277,20 @@
   text-decoration: none;
 }
 
+.container .card {
+  transition: all 0.1s;
+}
+.container .card:hover {
+  transform: scale(1) translateY(-12px);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.container .card .oscurecer {
+  filter: brightness(50%);
+}
+.container .card h3, .container .card p {
+  color: white;
+}
+
 .card_form {
   transition: all 0.1s;
 }
@@ -270,12 +299,28 @@
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
-.card .h3_serv {
-  font-size: 3rem;
+.servicios_back {
+  margin: 4.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  height: 500px;
+  background: rgb(252, 251, 251);
+  background: radial-gradient(circle, rgb(252, 251, 251) 1%, rgb(45, 71, 53) 100%);
+  transition: all 0.1s;
 }
-.card .p_serv {
+.servicios_back:hover {
+  transform: scale(1) translateY(-12px);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.servicios_back .oscurecer {
+  filter: brightness(50%);
+}
+
+.p_servicios_ {
+  color: rgb(109, 107, 107);
+  font-weight: 400;
+  font-size: 2rem;
   text-align: center;
-  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -294,13 +339,17 @@
   .hero .hero_content .hero_vivero {
     font-size: 3rem;
   }
-  .card .h3_serv {
-    font-size: 1.8rem;
-  }
-  .card .p_serv {
-    font-size: 1.2rem;
-  }
 }
+.p_servicios_ {
+  font-size: 2rem;
+  color: black;
+}
+
+.card_form {
+  width: 500px;
+  height: 500px;
+}
+
 @media screen and (max-width: 480px) {
   .container_principal {
     padding-top: 4rem;
@@ -325,6 +374,24 @@
   .hero .hero_content .hero_vivero {
     font-size: 2.5rem;
   }
+}
+.h2_title {
+  font-size: 1.7rem;
+}
+
+.p_sucu {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.p_servicios_ {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.card_form {
+  width: 350px;
+  height: 500px;
 }
 
 /*# sourceMappingURL=styles.css.map */

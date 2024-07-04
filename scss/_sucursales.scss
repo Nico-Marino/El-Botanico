@@ -1,19 +1,27 @@
-.container {
-    .card {
-        transition: all .1s; 
-
-        &:hover {
-            transform: scale(1) translateY(-12px); 
-            box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        } 
-        .oscurecer {
-            filter: brightness(50%);
-        }
-        h3, p {
-            color: white;
-        }
-    }
-   
-    
-   
+.h2_title {
+color: rgb(203, 73, 73);
+font-size: 2rem;
+font-weight: bold;
+text-align: center;
 }
+.p_sucu {
+color: rgb(109, 107, 107);
+font-weight: 500;
+font-size: 1.5rem;
+text-align: center;
+}
+
+.sucursales_back {
+padding: 1rem;
+height: 500px;
+background: rgb(252,251,251);
+background: radial-gradient(circle, rgba(252,251,251,1) 1%, rgba(45,71,53,1) 100%);
+transition: all .1s;
+&:hover {
+transform: scale(1) translateY(-12px); 
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+} 
+.oscurecer {
+filter: brightness(50%);
+}
+} 
