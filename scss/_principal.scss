@@ -13,12 +13,12 @@
     padding: 15px;
     gap: 10px;
 
-    div {
+div {
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 4rem;
-        animation:tracking-in-expand-fwd-top .8s cubic-bezier(.215,.61,.355,1.000) both;
+        -webkit-animation:tracking-in-expand-fwd-top .8s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand-fwd-top .8s cubic-bezier(.215,.61,.355,1.000) both
     }
     a {
         text-decoration: none;
@@ -32,7 +32,7 @@
     }
     .sucursales {
         grid-area: sucursales;
-        animation-delay: .3s;
+        animation-delay: .2s;
     }
     .productos {
         grid-area: productos;
@@ -40,13 +40,14 @@
     }
     .servicios {
         grid-area: servicios;
-        animation-delay: .9s;
+        animation-delay: 1s;
     }
     .contacto {
         grid-area: contacto;
-        animation-delay: 1.2s;
+        animation-delay: 1.4s;
     }
     
 }
 
- @keyframes tracking-in-expand-fwd-top{0%{letter-spacing:-.5em;transform:translateZ(-700px) translateY(-500px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0) translateY(0);opacity:1}}
+
+ @-webkit-keyframes tracking-in-expand-fwd-top{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px) translateY(-500px);transform:translateZ(-700px) translateY(-500px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}@keyframes tracking-in-expand-fwd-top{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px) translateY(-500px);transform:translateZ(-700px) translateY(-500px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}
