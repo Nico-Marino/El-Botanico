@@ -221,7 +221,6 @@
 .sucursales_back .p_sucu {
   color: #2d4735;
   font-weight: 600;
-  font-size: 1.1rem;
   text-align: center;
 }
 
@@ -310,6 +309,10 @@
   color: white;
 }
 
+.cajita_produ {
+  margin-bottom: 5rem;
+}
+
 .card_form {
   transition: all 0.1s;
 }
@@ -320,7 +323,6 @@
 
 .servicios_back {
   margin: 5rem;
-  margin-bottom: 6rem;
   padding-top: 1rem;
   padding-bottom: 0;
   height: 400px;
@@ -338,14 +340,14 @@
 
 .p_servicios_ {
   color: rgb(109, 107, 107);
+  font-size: 1.5rem;
   font-weight: 500;
-  font-size: 1.3rem;
   text-align: center;
 }
 
-.h2_title {
+.h2_title_ {
   color: rgb(203, 73, 73);
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   text-align: center;
 }
@@ -391,10 +393,6 @@
   .hero .hero_content .hero_vivero {
     font-size: 2.5rem;
   }
-}
-.card_form {
-  width: 350px;
-  height: 500px;
 }
 
 /*# sourceMappingURL=styles.css.map */
