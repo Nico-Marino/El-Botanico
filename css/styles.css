@@ -183,21 +183,23 @@
 }
 .h2_title {
   color: rgb(203, 73, 73);
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: bold;
   text-align: center;
 }
 
 .p_sucu {
-  color: rgb(109, 107, 107);
+  color: rgb(61, 58, 58);
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
 }
 
 .sucursales_back {
+  margin-inline: 7rem;
+  margin-bottom: 5rem;
   padding: 1rem;
-  height: 500px;
+  height: 400px;
   background: rgb(252, 251, 251);
   background: radial-gradient(circle, rgb(252, 251, 251) 1%, rgb(45, 71, 53) 100%);
   transition: all 0.1s;
@@ -205,9 +207,6 @@
 .sucursales_back:hover {
   transform: scale(1) translateY(-12px);
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-}
-.sucursales_back .oscurecer {
-  filter: brightness(50%);
 }
 
 .boton_form {
@@ -300,10 +299,11 @@
 }
 
 .servicios_back {
-  margin: 4.5rem;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  height: 500px;
+  margin: 5rem;
+  margin-bottom: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 0;
+  height: 400px;
   background: rgb(252, 251, 251);
   background: radial-gradient(circle, rgb(252, 251, 251) 1%, rgb(45, 71, 53) 100%);
   transition: all 0.1s;
@@ -318,8 +318,8 @@
 
 .p_servicios_ {
   color: rgb(109, 107, 107);
-  font-weight: 400;
-  font-size: 2rem;
+  font-weight: 500;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -340,16 +340,6 @@
     font-size: 3rem;
   }
 }
-.p_servicios_ {
-  font-size: 2rem;
-  color: black;
-}
-
-.card_form {
-  width: 500px;
-  height: 500px;
-}
-
 @media screen and (max-width: 480px) {
   .container_principal {
     padding-top: 4rem;
@@ -375,20 +365,6 @@
     font-size: 2.5rem;
   }
 }
-.h2_title {
-  font-size: 1.7rem;
-}
-
-.p_sucu {
-  font-size: 1.3rem;
-  color: black;
-}
-
-.p_servicios_ {
-  font-size: 1.2rem;
-  color: black;
-}
-
 .card_form {
   width: 350px;
   height: 500px;
