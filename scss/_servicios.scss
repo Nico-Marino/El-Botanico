@@ -1,7 +1,6 @@
 
     .servicios_back {
-    margin: 5rem;
-    padding-top: 1rem;
+    margin-inline: 8rem;
     padding-bottom: 0;
     height: 400px;
     background: rgb(247,247,247);
@@ -9,12 +8,7 @@
     transition: all .1s;
     &:hover {
     transform: scale(1) translateY(-12px); 
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    } 
-    .oscurecer {
-    filter: brightness(50%);
-    }
-    } 
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;} 
     .p_servicios_ {
         color: rgb(109, 107, 107);
         font-size: 1.5rem;
@@ -23,8 +17,10 @@
     }
     .h2_title_ {
         color: rgb(203, 73, 73);
-        font-size: 1.8rem;
+        font-size: 2rem;
         font-weight: bold;
         text-align: center;
         }
+    } 
+  
     
