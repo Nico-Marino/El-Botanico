@@ -1,7 +1,7 @@
 
 .sucursales_back {
+margin-inline: 10rem;
 margin-bottom: 5rem;
-padding: 1rem;
 height: 400px;
 background: rgb(247,247,247);
 background: radial-gradient(circle, rgba(247,247,247,1) 59%, rgba(202,210,197,1) 100%);
@@ -15,9 +15,11 @@ box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
+    padding-top: 0;
     }
 .p_sucu {
     color: $maincolor;
+    font-size: 1.2rem;
     font-weight: 600;
     text-align: center;
     }
