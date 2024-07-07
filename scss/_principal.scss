@@ -12,7 +12,6 @@
        "servicios   contacto";
     padding: 15px;
     gap: 10px;
-
 div {
         display: flex;
         justify-content: center;
@@ -24,7 +23,6 @@ div {
         text-decoration: none;
         color: white;
         transition: all 1s;
-
         &:hover {
             color: $secondarycolor;
             font-weight: bold;
