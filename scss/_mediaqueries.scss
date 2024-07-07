@@ -24,15 +24,11 @@
         }
     }
     .h2_sucu {
-        font-size: 1.5rem;
-    }
-    .sucursales_back {
-        .h2_title {
-            font-size: 1.7rem;
-        }
+        font-size: 1.3rem;
     }
     .servicios_back {
         margin-inline: 6rem;
+        margin-top: 0;
         padding-top: 2rem;
         .h2_title_ {
             color: rgb(203, 73, 73);
@@ -75,7 +71,7 @@
 .hero {
     .hero_content {
         .hero_text {
-            font-size: 1rem;
+            font-size: 1.2rem;
             text-align: center;
         }
         .hero_vivero {
@@ -84,8 +80,8 @@
     }
 }
 .servicios_back {
-    margin: 2rem;
-    padding-top: 3rem;
+    margin: 0 1rem 1rem 1rem;
+    padding-top: 2rem;
     padding-bottom: 0;
     .h2_title_ {
         font-size: 1.6rem;
