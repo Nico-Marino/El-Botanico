@@ -325,7 +325,7 @@
 
 .servicios_back {
   margin-inline: 15rem;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   padding-bottom: 0;
   height: 400px;
   background: rgb(247, 247, 247);
@@ -393,7 +393,7 @@
 }
 @media screen and (max-width: 480px) {
   .container_principal {
-    padding-top: 4rem;
+    padding-top: 7rem;
     display: flex;
     flex-direction: column;
     gap: 5rem;
